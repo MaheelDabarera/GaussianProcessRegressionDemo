@@ -1,8 +1,8 @@
 clear all
 clc
 %% Function to Estimate
-noise_std=0.2;
-N=260;
+noise_std=0.2; 
+N=260; % Number of samples 
 x_init=linspace(0,4*pi,N)';
 fpure=@(v) cos(v).^2;
 f=fpure(x_init)+noise_std*randn(size(x_init));
