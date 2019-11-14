@@ -3,7 +3,7 @@ clc
 %% Function to Estimate
 noise_std=0.2; 
 N=260; % Number of samples 
-x_init=linspace(0,4*pi,N)';
+x_init=linspace(0,4*pi,N)'; % Create a sin curve
 fpure=@(v) cos(v).^2;
 f=fpure(x_init)+noise_std*randn(size(x_init));
 %%
@@ -11,6 +11,7 @@ plot(x_init,f)
 xlabel('x')
 ylabel('y')
 title('y=cos(x)^2+noise')
+
 %% Randomization of Data
 n=numel(f);
 A=[x_init,f]; 
