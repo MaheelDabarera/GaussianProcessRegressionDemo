@@ -5,7 +5,7 @@ This code implements Gaussian process regression to estimate the function
 def fpure(v):
     return np.cos(v)**2
 
-#Installation
+# Installation
 
 To install this code, you will need to have Python 3 installed. Once you have Python 3 installed, you can install the dependencies by running the following command:
 
@@ -13,7 +13,7 @@ To install this code, you will need to have Python 3 installed. Once you have Py
 pip install -r requirements.txt
 "
 
-#Usage
+# Usage
 To use this code, you will need to provide the following information:
 
 The training data x and y.
@@ -32,7 +32,7 @@ python gp.py x y σ
 
 This will run the Gaussian process regression code and print the mean squared prediction error.
 
-#Improvements
+# Improvements
 There are a few ways to improve this code:
 
 Use a more robust optimization algorithm. The L-BFGS-B algorithm is a good general-purpose optimization algorithm, but it may not be the best choice for all problems. For example, if the function to be optimized is non-convex, L-BFGS-B may not converge to the global minimum. In this case, it would be better to use a more robust optimization algorithm, such as the Bayesian optimization algorithm.
