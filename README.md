@@ -26,6 +26,7 @@ xs = x_rand[0.8 * len(x_rand):]
 
 # Transform the data
 y_init = y
+
 # y, lambda = boxcox(y)
 ys_init = ys
 # ys = boxcox(lambda, ys)
