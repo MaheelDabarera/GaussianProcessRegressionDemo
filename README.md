@@ -65,12 +65,6 @@ There are several ways to improve this code to make it more robust, flexible, an
 
 4. **Efficient Implementation**: Utilize vectorized operations to compute the covariance matrix and the mean and variance of the predictive distribution for better performance.
 
-5. **Documentation**: Include detailed documentation in the code and README.md file to explain the purpose of each function, the structure of the code, and how to use it effectively.
-
-6. **Testing**: Implement unit tests to verify the correctness of individual components and ensure the code behaves as expected.
-
-7. **Visualization**: Consider adding visualization capabilities to help users better understand the model's performance and the underlying data.
-
-Remember that these are just some suggestions for improvement. Depending on the specific use case and data characteristics, there might be other enhancements that could be beneficial.
+5. **Testing**: Implement unit tests to verify the correctness of individual components and ensure the code behaves as expected.
 
 Feel free to fork this repository and submit pull requests to contribute to the code's development and make it even more useful for the community. Happy coding!
